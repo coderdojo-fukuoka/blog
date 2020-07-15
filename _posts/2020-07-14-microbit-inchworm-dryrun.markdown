@@ -1,9 +1,32 @@
 ---
 layout: post
-title:  "micro:bit しゃくとり虫 - サーボモーターを動かしてみる（作成中）"
+title:  "micro:bit inchworm しゃくとり虫 - サーボモーターを動かしてみる（作成中）"
 date:   2020-07-14 20:45:00 +0900
 categories: microbit inchworm
 ---
-作成中 WIP...
-※ Chromeでみた方が問題が少ないです。
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_ix1AH2cKq7Wu" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+しゃくとり虫を組み立てる前に、サーボの動きを確認してみよう。
+
+じゅんび：
+* マイクロビット
+* 電池ボックス
+* ワニ口クリップ
+* ジャンパーピン（オス - オス）
+
+1. マイクロビットにプログラムを転送する
+   このプログラムをマイクロビットにダウンロードしよう（パソコンとマイクロビットをUSBケーブルで接続し、右下のダウンロードをクリック）。
+   <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_DicCcUX5UiiM" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+
+2. マイクロビットとサーボモーターを接続する
+   ワニ口クリップとジャンパーピンを使ってマイクロビットとサーボモーターを接続しよう。サーボモーターのコネクタにジャンパーピンを差し込み、それをワニ口クリップで挟むとよい。
+   つなぎ方（線の色）は下の図を参考にしよう。
+
+3. サーボモーターを動かしてみよう
+   マイクロビットの'A'ボタンを押すとサーボモーターが動くはずだ。
+
+4. 動きが確認できたらしゃくとり虫を組み立てよう
+
+参考
+マイクロビットしゃくとり虫では、サーボモーター用の電源を別に使わずに、マイクロビットから直接サーボモーターに電力を供給します。そのため以下の点に注意が必要です。
+* SG90以外のサーボでは電力不足で動かないことがあります
+* マイクロビットの電源をUSBからとるとサーボに必要な電流が供給できません。RHコネクタか、エッジコネクタへの給電にします。だだしその場合は3.3Vまでにしましょう。サーボモーターの規格が6Vだとしても、その電圧をRHコネクタかエッジコネクタにかけるとマイクロビットが破損します
+* アルカリ電池は新品、エネループならばフル充電のものを使用してください
