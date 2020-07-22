@@ -4,8 +4,8 @@ title:  "micro:bit inchworm マイクロビットとサーボでしゃくとり�
 date:   2020-07-16 17:55:00 +0900
 categories: microbit inchworm
 ---
-
-マイクロビットでしゃくとり虫ロボットを作ってみよう。
+マイクロビットとサーボで[しゃくとり虫](https://makecode.microbit.org/projects/inchworm)ロボットを作ってみよう。
+![しゃくとり虫画面](/blog/images/2020-07-16-img003.png)
 
 マイクロビットをプログラミングするときに使う [Microsoft Makecode （メイクコード）](https://makecode.microbit.org/)のページに作り方がのっている。
 
@@ -16,35 +16,39 @@ categories: microbit inchworm
 ![Microsoft Makecode 2](/blog/images/2020-07-16-img002.png)
 
 「[しゃくとり虫](https://makecode.microbit.org/projects/inchworm)」のページが開く
-![しゃくとり虫](/blog/images/2020-07-16-img003.png)
+![しゃくとり虫画面](/blog/images/2020-07-16-img003.png)
 
-このページのとおりに作ればしゃくとり虫ロボットが作れるゾ。
+このページのとおりに作ればしゃくとり虫ロボットが作れるよ。
 ただこのページは最初のページ以外はまだ英語のままだ。
-「[作り方](https://makecode.microbit.org/projects/inchworm/make)」から先の英語ページは Google翻訳 で日本語にするとよい。
+「[作り方](https://makecode.microbit.org/projects/inchworm/make)」から先の英語ページは Google翻訳 で日本語にするといいよ。
 
 [作り方のGoogle翻訳](https://translate.google.co.jp/translate?hl=ja&sl=en&tl=ja&u=https%3A%2F%2Fmakecode.microbit.org%2Fprojects%2Finchworm%2Fmake)
 
-ページが日本語で読めるようになったところでつまずきやすいところを順番に説明しよう。
+ページが日本語で読めるようになったところで内容を説明するね。
 
 ## 材料・道具
+まずは材料をそろえよう。
+
 [材料について](/blog/microbit/inchworm/2020/07/21/microbit-inchworm-materials.html)
 
 ## サーボを動かしてみよう
-材料がそろったら、まずはマイクロビットとサーボをつないで動かしてみよう。サーボがどのように動くかわかってから組み立てるとわかりやすい。
+材料がそろったら、まずはマイクロビットとサーボをつないで動かしてみよう。サーボがどのように動くかわかってから組み立てるとわかりやすいよ。
 
 [サーボを動かしてみよう](/blog/microbit/inchworm/servo/2020/07/14/microbit-inchworm-dryrun.html)
 
 ## 作り方
-このページをみてしゃくとり虫を組み立てよう。  
-[作り方のGoogle翻訳]
+メイクコードのページをみてしゃくとり虫を組み立てよう！
+
+[作り方のGoogle翻訳](https://translate.google.co.jp/translate?hl=ja&sl=en&tl=ja&u=https%3A%2F%2Fmakecode.microbit.org%2Fprojects%2Finchworm%2Fmake)
 
 ## プログラミング
-[Code]のプログラムを使えばよいが、もっと簡単に試すには
+[メイクコードのCode](https://makecode.microbit.org/projects/inchworm/code)ページのプログラムを使えばよいが、もっと簡単に試すには
 
-[リンク]
+[コーディング](/blog/microbit/inchworm/2020/07/15/microbit-inchworm-code.html)
 
-を使ってみてね。
+のプログラムを使ってみてね。
 
 ## もう1台のマイクロビットをリモコンにする
 もう1台マイクロビットがある場合はリモコンを作ってみよう。リモコンのマイクロビットの'A'ボタンを押すとしゃくとり虫が1歩進むようにできる。
+
 [リンク]
