@@ -24,7 +24,7 @@ categories: microbit inchworm
 
 [作り方のGoogle翻訳](https://translate.google.co.jp/translate?hl=ja&sl=en&tl=ja&u=https%3A%2F%2Fmakecode.microbit.org%2Fprojects%2Finchworm%2Fmake)
 
-ページが日本語で読めるようになったところで内容を説明するね。
+これで日本語で読めるようになった。作り始める前に下の説明を読んでみてね。
 
 ## 材料・道具
 まずは材料をそろえよう。
@@ -32,7 +32,7 @@ categories: microbit inchworm
 [材料について](/blog/microbit/inchworm/2020/07/21/microbit-inchworm-materials.html)
 
 ## サーボを動かしてみよう
-材料がそろったら、まずはマイクロビットとサーボをつないで動かしてみよう。サーボがどのように動くかわかってから組み立てるとわかりやすいよ。
+材料がそろったら、しゃくとり虫を組み立てる前にマイクロビットとサーボをつないで動かしてみよう。サーボがどんなふうに動くかわかってから組み立てると作りやすいよ。
 
 [サーボを動かしてみよう](/blog/microbit/inchworm/servo/2020/07/14/microbit-inchworm-dryrun.html)
 
