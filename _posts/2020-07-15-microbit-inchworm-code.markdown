@@ -8,6 +8,8 @@ categories: microbit inchworm
 公式ページのプログラムをそのまま使えばつかえばよいが、
 このページのプログラムも参考にしてね。このままダウンロードして使ってもいいよ。
 
+マイクロビットとパソコンの接続は [はじめてのmicro:bit](https://kidsc2.org/recipes/9/chapters){:target="_blank"} などを参考にしよう。
+
 ## マイクロビット1台（5歩進む）
 Aボタンを押すと5歩進む。組み立て時の動作確認などに使おう。変数「5」は自由に変えてOKだ。
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_4uHLgxMts9UE" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
