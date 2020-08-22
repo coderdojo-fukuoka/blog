@@ -2,21 +2,24 @@
 layout: post
 title:  "micro:bit inchworm マイクロビットとサーボでしゃくとり虫を作ろう！"
 date:   2020-07-16 17:55:00 +0900
+modified_date: 2020-07-25 20:30:00 +0900
+author: kztaka
 categories: microbit inchworm
+tags: microbit しゃくとり虫
 ---
 マイクロビットとサーボで[しゃくとり虫](https://makecode.microbit.org/projects/inchworm)ロボットを作ってみよう。
-![しゃくとり虫画面](/blog/images/2020-07-16-img003.png)
+![しゃくとり虫画面](/blog/images/2020/0716-img003.png)
 
 マイクロビットをプログラミングするときに使う [Microsoft Makecode （メイクコード）](https://makecode.microbit.org/)のページに作り方がのっている。
 
 メイクコードの画面
-![Microsoft Makecode](/blog/images/2020-07-16-img001.png)
+![Microsoft Makecode](/blog/images/2020/0716-img001.png)
 
 少し下にスクロールすると、「おもちゃ」の中に「inchworm」（しゃくとり虫）があるのでそれを開く。
-![Microsoft Makecode 2](/blog/images/2020-07-16-img002.png)
+![Microsoft Makecode 2](/blog/images/2020/0716-img002.png)
 
 「[しゃくとり虫](https://makecode.microbit.org/projects/inchworm)」のページが開く
-![しゃくとり虫画面](/blog/images/2020-07-16-img003.png)
+![しゃくとり虫画面](/blog/images/2020/0716-img003.png)
 
 このページのとおりに作ればしゃくとり虫ロボットが作れるよ。
 ただこのページは最初のページ以外はまだ英語のままだ。
@@ -34,7 +37,7 @@ categories: microbit inchworm
 ## サーボを動かしてみよう
 材料がそろったら、しゃくとり虫を組み立てる前にマイクロビットとサーボをつないで動かしてみよう。サーボがどんなふうに動くかわかってから組み立てると作りやすいよ。
 
-[サーボを動かしてみよう](/blog/microbit/inchworm/servo/2020/07/14/microbit-inchworm-dryrun.html)
+[サーボを動かしてみよう](/blog/microbit/inchworm/2020/07/14/microbit-inchworm-dryrun.html)
 
 ## 作り方
 メイクコードのページをみてしゃくとり虫を組み立てよう！

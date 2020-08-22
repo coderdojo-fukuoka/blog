@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "micro:bit inchworm しゃくとり虫 - コーディング"
+title:  "micro:bit inchworm しゃくとり虫 (4) - コーディング"
 date:   2020-07-15 21:50:00 +0900
+modified_date: 2020-07-25 20:30:00 +0900
+author: kztaka
 categories: microbit inchworm
 ---
 しゃくとり虫のコーディングをしよう。  

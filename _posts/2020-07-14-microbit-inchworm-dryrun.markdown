@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  "micro:bit inchworm しゃくとり虫 - サーボを動かしてみる"
+title:  "micro:bit inchworm しゃくとり虫 (3) - サーボを動かしてみる"
 date:   2020-07-14 20:45:00 +0900
-categories: microbit inchworm servo
+modified_date: 2020-08-02 10:00:00 +0900
+author: kztaka
+categories: microbit inchworm
+tags: microbit しゃくとり虫
 ---
 しゃくとり虫を組み立てる前に、サーボの動きを確認してみよう。
 
@@ -38,6 +41,10 @@ categories: microbit inchworm servo
       0  <------>  橙
 ```
 ※実際の線の色は「赤」がオレンジ、「橙（だいだい）」が黄色に近い
+
+![connector](/blog/images/2020/0714-img003.png)
+
+![MakeCode servo](/blog/images/2020/0714-img002.png)
 
 ### サーボを動かしてみよう
    マイクロビットの'A'ボタンを押すとサーボのアームが0度から180度の位置に動くはずだ。
