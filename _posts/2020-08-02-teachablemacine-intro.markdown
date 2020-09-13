@@ -11,7 +11,7 @@ Googleの [Teachable Machine](https://teachablemachine.withgoogle.com/){:target=
 ![Teachable Machine page](/blog/images/2020/0802-img001.png)
 
 ## 画像の区別
-似ているが少し違うものを区別することを考えよう。たとえばおかしの「きのこの山」と「たけのこの里」、このおかしを知ってる人なら見るか手でさわるかすれば簡単に区別することができるね。  
+似ているが少し違うものを区別することを考えよう。たとえばおかしの「きのこの山」と「たけのこの里」、このおかしを知ってる人なら見るかさわるかすれば簡単に区別することができるね。  
 ![kinoko takenoko](/blog/images/2020/0802-img002.png)
 
 でもこの区別をプログラミングでコンピューターに教えようとすると難しそうだと想像できるかな？それぞれの特徴をコンピューターに教える必要がありそうだね。ただ特徴を教える（プログラムする）といってもどうやって？そもそも特徴とは？人間はどうやってそれを区別しているの？考えるとちょっと難しそうだ。
@@ -25,7 +25,7 @@ Googleの [Teachable Machine](https://teachablemachine.withgoogle.com/){:target=
 ではさっそくやってみよう。
 
 ## Teachable Machineを開く
-[Teachable Machine](https://teachablemachine.withgoogle.com/){:target="_blank"}  を開こう。（ブラウザはChromeを使おう）
+[Teachable Machine (https://teachablemachine.withgoogle.com/)](https://teachablemachine.withgoogle.com/){:target="_blank"}  を開こう。（ブラウザはChromeを使おう）
 
 画面が開いたら「使ってみる」をクリックする。
 ![img003](/blog/images/2020/0802-img003.png)
@@ -83,7 +83,7 @@ Webカメラできのこの山を写して、「長押しして録画」ボタ�
 
 ## 画像を区別してみよう
 
-Webカメラで写した画像によって「出力」のメーターが動くはずだ。
+Webカメラにきのこの山やたけのこの里を写すと、それに合わせて「出力」のメーターが動くはずだ。
 
 ![img018](/blog/images/2020/0802-img018.png)
 
