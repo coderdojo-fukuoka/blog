@@ -23,6 +23,7 @@ Arduino Leonardo、持っている人は少ないかもしれない。ここで�
 ## 材料
 材料は[しゃくとり虫](/blog/microbit/inchworm/2020/07/16/microbit-inchworm.html)と同じものが使える。
 * micro:bit
+* 電池ボックス
 * サーボSG90
 * ワニ口クリップコード
 * ジャンパーワイヤー
@@ -33,9 +34,9 @@ Arduino Leonardo、持っている人は少ないかもしれない。ここで�
 それ以外に必要なものは
 * 厚紙（ケント紙など）
 * プリンター（厚紙に型紙を印刷する）
-* 動眼（ぬいぐるみ用の動く目、紙でつくってもよい）
+* 動眼（ぬいぐるみ用の目、紙でつくってもよい）
 * ハサミ
-* セロテープ
+* セロハンテープ
 * 定規（厚紙を折り曲げるときに使う）
 
 だ。ケント紙や動眼は100円ショップにもあるよ。
@@ -54,8 +55,12 @@ Tiny Sorterの作り方のページに型紙のPDFがある。まずはこれを
 
 ![img0005](/blog/images/2020/1014-img005.png)
 
-組み立ては [Tiny Sorterのページ](https://experiments.withgoogle.com/tiny-sorter/view){:target="_blank"} の「1.Assemble your sorter」の通りで良い。
-「C. Put it all together」の3/4のサーボの取り付けは、サーボのコードが上にくるように取り付ける。
+組み立ては [Tiny Sorterのページ](https://experiments.withgoogle.com/tiny-sorter/view){:target="_blank"} の「1.ソーターを組み立てます/1.Assemble your sorter」の通りで良い。
+「C.すべてをまとめる/C. Put it all together」の手順3/4のサーボの取り付けは、サーボのコードが上にくるように取り付ける。
+
+![img015](/blog/images/2020/1014-img015.png)
+
+サーボのコードが上に
 
 ![img006](/blog/images/2020/1014-img006.png)
 
@@ -91,12 +96,15 @@ Bボタンを押すと止まる。
 
 ## トレーニング
 次にTeachable Machineを使って画像データのトレーニングをしよう。区別するもの（マシュマロとシリアルなど）を用意し、
-[Tiny Sorterのページ](https://experiments.withgoogle.com/tiny-sorter/view){:target="_blank"} の「3.Train your model」の手順でトレーニングを行う。
-ただし 手順8/8はp5の画面ではなくStretch3の「画像分類モデルURL（がぞうぶんるいモデル）」ブロックにはりつける（下の「Tiny Sorterを動かすプログラム）。
+[Tiny Sorterのページ](https://experiments.withgoogle.com/tiny-sorter/view){:target="_blank"} の「3.モデルをトレーニングします/3.Train your model」の手順でトレーニングを行う。
+
+![img016](/blog/images/2020/1014-img016.png)
+
+ただし 手順8/8はp5スケッチ（今回は使わない）の画面ではなくStretch3の「画像分類モデルURL（がぞうぶんるいモデル）」ブロックにはりつける（下の「Tiny Sorterを動かそう」を見てね）。
 
 トレーニングはサーボをゆらしながら行う。サーボをゆらすには上で試した[サーボをゆらすプログラム(servoshake.sb3)](https://github.com/coderdojo-fukuoka/archives/raw/master/stretch3/tinysorter/servoshake.sb3)を使おう。Stretch3とTeachable Machineはそれぞれ別のChromeウィンドウで起動しよう（1つのChromeの別タブで動作させると動きが遅くなる）。
 
-## Tiny Sorterを動かすプログラム
+## Tiny Sorterを動かそう
 [Tiny Sorterを動かすプログラム](https://github.com/coderdojo-fukuoka/archives/raw/master/stretch3/tinysorter/tinysorter.sb3)をダウンロードし、Stretch3で読み込む。
 
 画像分類モデルURLはここに貼り付ける。
@@ -104,8 +112,8 @@ Bボタンを押すと止まる。
 ![img014](/blog/images/2020/1014-img014.png)
 
 ## 完成
-区別するものをソーターの上にならべてAボタンを押してみよう。
+マシュマロとシリアルなど区別するものをソーターの上にならべてAボタンを押してみよう。
 
 ![img001](/blog/images/2020/1014-img001.png)
 
-ここではマシュマロとシリアルの代わりに色の違う星型ビーズを使っている。星型ビーズはサーボでソーターがゆれるとすこしずつ前に進んでくる（モニターのかたむきを調整して進み方を調節しよう）。他にも柿の種とピーナツの区別などいろいろ試してみよう。ソーターに並べるものはすこし表面がざらざらしているもののほうがうまくいくようだ。丸いもの（大豆とあずきなど）は転がり過ぎてうまくいかない。いろいろ試してみよう！
+ここではマシュマロとシリアルの代わりに色の違う星型ビーズを使ってみた。サーボでソーターがゆれるとビーズはすこしずつ前に進んでくる（モニターのかたむきを変えて進み方を調節しよう）。他にも柿の種とピーナツの区別などもおもしろそうだね。ソーターに並べるものはすこし表面がざらざらしているもののほうがうまくいくようだ。丸いもの（大豆とあずきなど）は転がり過ぎてうまくいかない。いろいろ試してみよう！
