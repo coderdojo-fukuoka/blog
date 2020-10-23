@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Teachable Machine  (2) - Scratchと連携してみよう"
-date:   2020-08-17 08:40:00 +0900
+date:   2020-08-17 09:40:00 +0900
 author: kztaka
 categories: AI teachablemachine
 tags: AI "Teachable Machine" Scratch

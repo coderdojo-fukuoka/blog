@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MakeCode Arcade - レトロなゲームをモダンなプログラミングで "
-date:   2020-09-09 08:30:00 +0900
+date:   2020-09-09 09:30:00 +0900
 author: kztaka
 categories: Arcade
 tags: Arcade
