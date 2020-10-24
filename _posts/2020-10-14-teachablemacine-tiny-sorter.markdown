@@ -12,7 +12,11 @@ Tiny Sorterを作ってみよう。
 
 Teachable Machineでマシュマロとシリアルを区別し、サーボを使って左右にふり分ける装置だ。
 
-[Tiny Sorter(https://experiments.withgoogle.com/tiny-sorter/view)](https://experiments.withgoogle.com/tiny-sorter/view){:target="_blank"}に作り方がのっている。日本語ページはないのでChromeの翻訳機能で日本語にしてみよう。
+[Teachable Machine](https://teachablemachine.withgoogle.com/){:target="_blank"}のページの「Teachable Machine で作成」で紹介されている [Tiny Sorter(https://experiments.withgoogle.com/tiny-sorter/view)](https://experiments.withgoogle.com/tiny-sorter/view){:target="_blank"} に作り方がのっている。
+
+![img017](/blog/images/2020/1014-img017.png)
+
+日本語ページはないのでChromeの翻訳機能で日本語にしてみよう。
 
 ![img002](/blog/images/2020/1014-img002.png)
 
@@ -105,11 +109,16 @@ Bボタンを押すと止まる。
 トレーニングはサーボをゆらしながら行う。サーボをゆらすには上で試した[サーボをゆらすプログラム(servoshake.sb3)](https://github.com/coderdojo-fukuoka/archives/raw/master/stretch3/tinysorter/servoshake.sb3)を使おう。Stretch3とTeachable Machineはそれぞれ別のChromeウィンドウで起動しよう（1つのChromeの別タブで動作させると動きが遅くなる）。
 
 ## Tiny Sorterを動かそう
-[Tiny Sorterを動かすプログラム](https://github.com/coderdojo-fukuoka/archives/raw/master/stretch3/tinysorter/tinysorter.sb3)をダウンロードし、Stretch3で読み込む。
+[Tiny Sorterを動かすプログラム(tinysorter.sb3)](https://github.com/coderdojo-fukuoka/archives/raw/master/stretch3/tinysorter/tinysorter.sb3)をダウンロードし、Stretch3で読み込む。
 
 画像分類モデルURLはここに貼り付ける。
 
 ![img014](/blog/images/2020/1014-img014.png)
+
+貼り付けた後、「画像分類モデルURL（がぞうぶんるいモデル）」ブロックをクリックしてモデルを読み込む。
+読み込み中はブロックのまわりが黄色になる。黄色が消えるまでしばらく待とう。
+
+![img018](/blog/images/2020/1014-img018.png)
 
 ## 完成
 マシュマロとシリアルなど区別するものをソーターの上にならべてAボタンを押してみよう。
