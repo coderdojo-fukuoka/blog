@@ -24,6 +24,6 @@ permalink: /events/techws2025
 | 14:00〜16:00 | [ゲームを作ってゲームマシンで動かしてみよう](https://coderdojo-fukuoka.connpass.com/event/369026/) | MakeCode Arcadeでゲームをプログラミングし、それをゲームマシン上で動かしてみます。初心者もOK。 | CoderDojo 福岡 | [申込・詳細](https://coderdojo-fukuoka.connpass.com/event/369026/) |
 | 16:00〜18:00 | [AIで仕分け！親子ハンズオン！](https://coderdojo-dazaifu.connpass.com/event/367734/) | 身近な材料と小さなロボットを使って、AIでモノを見分ける体験！親子で楽しみながら、機械学習とものづくりを学べます。 | CoderDojo 太宰府 | [申込・詳細](https://coderdojo-dazaifu.connpass.com/event/367734/) |
 
-詳細は各ワークショップの「申込・詳細情報」欄のリンク先を参照ください（準備中）。
+詳細は各ワークショップの「申込・詳細情報」欄のリンク先を参照ください（申込受付開始しました！）。
 
 イベント全体についてのお問い合わせは CoderDojo 福岡までお願いします（fukuoka.jp@coderdojo.com）。
